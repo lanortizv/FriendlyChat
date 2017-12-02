@@ -226,7 +226,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Signed in!", Toast.LENGTH_SHORT).show();
             } else if (resultCode == RESULT_CANCELED) {
                 Toast.makeText(this, "Sign in canceled!", Toast.LENGTH_SHORT).show();
-
             }
         } else if (requestCode == RC_PHOTO_PICKER && resultCode == RESULT_OK) {
             Log.e("photo", "OK");
